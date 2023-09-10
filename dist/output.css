@@ -603,6 +603,10 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -784,4 +788,29 @@ video {
   .md\:max-w-xl {
     max-width: 36rem;
   }
+}
+
+.\[\&\>\*\]\:bg-pink-500>* {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 72 153 / var(--tw-bg-opacity));
+}
+
+.\[\&\>li\:first-child\]\:bg-pink-500>li:first-child {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 72 153 / var(--tw-bg-opacity));
+}
+
+.\[\&\>li\:firsts-child\]\:bg-pink-500>li:firsts-child {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 72 153 / var(--tw-bg-opacity));
+}
+
+.\[\&\>li\:last-child\]\:bg-pink-500>li:last-child {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 72 153 / var(--tw-bg-opacity));
+}
+
+.\[\&\>li\:nth-child\(3\)\]\:bg-pink-500>li:nth-child(3) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 72 153 / var(--tw-bg-opacity));
 }
