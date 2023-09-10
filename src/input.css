@@ -1,3 +1,12 @@
+:root {
+  --warna-ungu: 168 85 247; /*isi value dengan warna rgb*/
+  --warna-pink: 236 72 153; /*isi value dengan warna rgb*/
+  --warna-biru: 2 132 199; /*isi value dengan warna rgb*/
+  --warna-orange: 249 115 22; /*isi value dengan warna rgb*/
+
+  --warna-tema: var(--warna-orange);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
