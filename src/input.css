@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.kotak {
+  @apply h-20 w-20;
+  /* background-color: rgba(200, 0, 0, 0.4); */
+  background-color: theme(colors.hijau / 50%);
+}
